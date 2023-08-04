@@ -11,3 +11,8 @@ export {default as Statistics} from './Statistics';
 export {default as Remainders} from './Remainders';
 export {default as Profile} from './Profile';
 export {default as Meditation} from './Meditation';
+export {default as ScreenOne} from './TeamScreens/ScreenOne';
+export {default as ScreenTwo} from './TeamScreens/ScreenTwo';
+export {default as ScreenThree} from './TeamScreens/ScreenThree';
+export {default as ScreenFour} from './TeamScreens/ScreenFour';
+export {default as ScreenFive} from './TeamScreens/ScreenFive';

@@ -1,19 +1,26 @@
 import {StyleSheet} from 'react-native';
 
+
+
 export const styles = StyleSheet.create({ 
-    ImageBg: {
-      flex: 1,
-      width: '100%',
-      height: '100%',
-
+  mainContainer:{
+    backgroundColor: '#fff',
+    flex: 1,
   },
-  bottomContainer:{
-    flex: 2,
-    justifyContent: 'flex-end',
+    container: {     
+      alignItems:'center',
+      marginVertical: 30,     
+  },
+  secondContainer:{
     paddingHorizontal: 20,
-    paddingBottom:50,
- 
-  },
- 
+    flexDirection: 'row' ,
+     flexWrap:'wrap' , 
+     justifyContent: 'space-between' ,
+      alignItems: 'center',
 
+  },
+  logoStyle:{
+    width: 107,
+    height: 43,
+  }
 });

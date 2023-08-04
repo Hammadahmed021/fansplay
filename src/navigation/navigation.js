@@ -19,6 +19,11 @@ export default function StackNavigatior() {
        
       
             <Stack.Screen name="WelcomeScreenOne" component={Screens.WelcomeScreenOne} />
+            <Stack.Screen name="ScreenOne" component={Screens.ScreenOne} />
+            <Stack.Screen name="ScreenTwo" component={Screens.ScreenTwo} />
+            <Stack.Screen name="ScreenThree" component={Screens.ScreenThree} />
+            <Stack.Screen name="ScreenFour" component={Screens.ScreenFour} />
+            <Stack.Screen name="ScreenFive" component={Screens.ScreenFive} />
             <Stack.Screen name="WelcomeScreenTwo" component={Screens.WelcomeScreenTwo} />
             <Stack.Screen name="OnBoardScreenOne" component={Screens.OnBoardScreenOne} />
             <Stack.Screen name="OnBoardScreenTwo" component={Screens.OnBoardScreenTwo} />
