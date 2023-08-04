@@ -1,3 +1,10 @@
+const ExerciseImage1 = require('../assets/images/exercise.png');
+const ExerciseImage2 = require('../assets/images/exercise2.png');
+const ArrowImage =  require('../assets/images/arrow.png');
+
+
+
+
 export const tagNames = [
     {
       id: 0,
@@ -151,3 +158,17 @@ export const tagNames = [
     },
   ]
 
+export const exerciseListing =[
+  {
+    id: 0,
+    name: 'Comfort if you feel sad',
+    imageUrl: ExerciseImage1,
+    iconUrl: ArrowImage,
+  },
+  {
+    id: 1,
+    name: 'Comfort if you feel sad',
+    imageUrl: ExerciseImage2,
+    iconUrl: ArrowImage,
+  },
+];

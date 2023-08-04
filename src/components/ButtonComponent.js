@@ -4,20 +4,17 @@ import { fontFamily, fontSizes } from '../theme/Font';
 import { colors } from '../theme/Color';
 import LinearGradient from 'react-native-linear-gradient';
 
-export default function ButtonComponent({title , color , bgColor , texttransform , textWeight , onPress}) {
+export default function ButtonComponent({title , color , bgColor , texttransform , textWeight , onPress , style}) {
   return (
     <>
-    <LinearGradient colors={[color = colors.gradientColor2 ,color = colors.gradientColor1 ]}  style={{ ...styles.container}} >
+    <LinearGradient colors={[color = colors.gradientColor2 ,color = colors.gradientColor1 ]}  style={[{...styles.container}, style]} >
  
     <TouchableOpacity
    onPress={onPress}
     >
         <Text style={{color: color, textTransform: texttransform, fontWeight: textWeight , ...styles.textStyle}}>{title}</Text>
     </TouchableOpacity>
-    </LinearGradient>
-
-
-  
+    </LinearGradient>  
     </>
   )
 }

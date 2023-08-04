@@ -7,3 +7,7 @@ export {default as WelcomeScreenTwo} from './Welcome/WelcomeScreenTwo';
 export {default as OnBoardScreenOne} from './Onboarding/OnBoardScreenOne';
 export {default as OnBoardScreenTwo} from './Onboarding/OnBoardScreenTwo';
 export {default as OnBoardScreenThree} from './Onboarding/OnBoardScreenThree';
+export {default as Statistics} from './Statistics';
+export {default as Remainders} from './Remainders';
+export {default as Profile} from './Profile';
+export {default as Meditation} from './Meditation';

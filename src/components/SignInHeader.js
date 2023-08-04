@@ -18,7 +18,7 @@ export default function SignInHeader({headerText}) {
 
 const styles = StyleSheet.create({
     container:{
-        height: 230,
+        height: 180,
         backgroundColor: colors.black,
         position: 'relative'
     },

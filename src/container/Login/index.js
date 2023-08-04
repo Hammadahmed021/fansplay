@@ -36,8 +36,9 @@ export default function Login({navigation}) {
               title={'Log In'}
               textWeight={'500'}
               onPress={() => {
-                navigation.navigate('Homescreen');
+                navigation.navigate('MyTabs');
               }}
+              
             />
           </View>
 
